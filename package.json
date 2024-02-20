@@ -1,11 +1,11 @@
 {
   "name": "projectname",
-  "author": "ORGNAME",
+  "author": "knnabi-club",
   "description": "PROJECTDESCRIPTION",
   "version": "1.0.0",
   "license": "MIT",
   "keywords": [
-    "PROJECTNAME"
+    "community-backend"
   ],
   "main": "dist/main.js",
   "engines": {
@@ -23,15 +23,15 @@
     "test:coverage": "jest --config jest.config.json --coverage",
     "format": "eslint --fix --ext .ts ./src"
   },
-  "homepage": "https://github.com/ORGNAME/PROJECTNAME#readme",
+  "homepage": "https://github.com/knnabi-club/community-backend#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ORGNAME/PROJECTNAME.git",
-    "directory": "PROJECTNAME"
+    "url": "git+https://github.com/knnabi-club/community-backend.git",
+    "directory": "community-backend"
   },
   "bugs": {
-    "url": "https://github.com/ORGNAME/PROJECTNAME/issues",
-    "email": "sendto@email.com"
+    "url": "https://github.com/knnabi-club/community-backend/issues",
+    "email": "enzodiazdev@gmail.com"
   },
   "devDependencies": {
     "@casualbot/jest-sonar-reporter": "^2.3.1",
