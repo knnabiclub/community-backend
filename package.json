@@ -1,6 +1,6 @@
 {
   "name": "projectname",
-  "author": "knnabi-club",
+  "author": "knnabiclub",
   "description": "PROJECTDESCRIPTION",
   "version": "1.0.0",
   "license": "MIT",
@@ -23,19 +23,20 @@
     "test:coverage": "jest --config jest.config.json --coverage",
     "format": "eslint --fix --ext .ts ./src"
   },
-  "homepage": "https://github.com/knnabi-club/community-backend#readme",
+  "homepage": "https://github.com/knnabiclub/community-backend#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/knnabi-club/community-backend.git",
+    "url": "git+https://github.com/knnabiclub/community-backend.git",
     "directory": "community-backend"
   },
   "bugs": {
-    "url": "https://github.com/knnabi-club/community-backend/issues",
+    "url": "https://github.com/knnabiclub/community-backend/issues",
     "email": "enzodiazdev@gmail.com"
   },
   "devDependencies": {
     "@casualbot/jest-sonar-reporter": "^2.3.1",
     "@nestjs/cli": "^10.3.2",
+    "@types/express": "^4.17.21",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.19",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
@@ -66,6 +67,7 @@
     "@nestjs/platform-express": "^10.3.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
+    "express": "^4.18.2",
     "helmet": "^7.1.0",
     "pino": "^8.19.0",
     "reflect-metadata": "^0.2.1"
